@@ -1,0 +1,40 @@
+.who-we-are-section {
+    background-color: #f8f9fa;
+  }
+  
+  .who-we-are-section h2 {
+    color: #343a40;
+  }
+  
+  .who-we-are-section p {
+    color: #6c757d;
+  }
+  
+  [data-aos="fade-right"] {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 1.5s ease-in-out;
+  }
+  
+  [data-aos="fade-left"] {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 1.5s ease-in-out;
+  }
+  
+  [data-aos].aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .who-we-are-image {
+    max-width: 75%; /* Limit the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image inside the column */
+  }
+  
+  @media (max-width: 768px) {
+    .who-we-are-image {
+      max-width: 90%; /* Adjust size for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,49 @@
+/* Section background */
+.what-they-say-section {
+    background: linear-gradient(135deg, #434343, #666666);
+    color: #fff;
+  }
+  
+  .what-they-say-section h2 {
+    color: #fff;
+  }
+  
+  /* Cloud-shaped cards */
+  .cloud-card {
+    background: white;
+    border: none;
+    border-radius: 50% 50% 50% 50% / 35% 35% 65% 65%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+  }
+  
+  .cloud-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .testimonial-name {
+    font-size: 0.9rem;
+    color: #000;
+  }
+  
+  .testimonial-card p {
+    color: #ddd;
+  }
+  
+  .testimonial-card p.small {
+    color: #999;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .row.g-3 .col-sm-6 {
+      flex: 0 0 50%; /* Make two cards fit in one line */
+      max-width: 50%;
+    }
+  
+    .cloud-card {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  }
+  

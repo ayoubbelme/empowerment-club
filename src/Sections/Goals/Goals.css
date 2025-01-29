@@ -1,0 +1,35 @@
+/* Goals Section */
+.goals-section {
+    background: #f9f9f9; /* Darker background to match previous sections */
+    color: #333;
+  }
+  
+  /* Swiper Container */
+  .swiper-container {
+    padding-bottom: 30px;
+  }
+  
+  /* Goal Card */
+  .goal-card {
+    background: #ffd700;
+    color: #333;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .goal-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Pagination Dots */
+  .swiper-pagination-bullet {
+    background: #333 !important;
+    opacity: 0.6;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #333 !important; /* Gold color */
+    opacity: 1;
+  }
+  

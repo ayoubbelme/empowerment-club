@@ -1,0 +1,56 @@
+/* Contact Us Section */
+.contact-us-section {
+    background-color: #f8f9fa;
+    color: black;
+  }
+  
+  /* Section heading */
+  .contact-us-section h2 {
+    color: #343a40;
+  }
+  
+  .contact-us-section p {
+    color: #6c757d;
+  }
+  
+  /* Contact icons */
+  .contact-icon {
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .contact-icon:hover {
+    transform: translateY(-10px);
+   
+  }
+  
+  .contact-icon svg {
+    background: #333;
+    padding: 10px;
+    border-radius: 50%;
+    transition:  0.3s ease;
+  }
+  
+  .contact-icon.facebook:hover svg {
+    background: linear-gradient(135deg, #1877f2, #3b5998);
+  }
+  .contact-icon.instagram:hover svg {
+    background: linear-gradient(135deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+  }
+  .contact-icon.email:hover svg {
+    background: linear-gradient(90deg, #d44638, #f4a300);
+  }
+  /* Adjust spacing between icons */
+  .contact-icon p {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #343a40;
+  }
+  
+  @media (max-width: 576px) {
+    .contact-icon p {
+      font-size: 1rem;
+    }
+  }
+  

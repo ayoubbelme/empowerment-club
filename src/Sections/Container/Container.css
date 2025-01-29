@@ -1,0 +1,23 @@
+/* General container background and text styles */
+.title{
+  font-family: "Pacifico", serif;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+.club{
+  color: #ffd700;
+}
+.my-container {
+    background: linear-gradient(135deg, #000000, #434343); /* Black gradient */
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Yellow button styles */
+ 
+  
+ 
