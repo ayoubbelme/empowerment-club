@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="row align-items-center">
           {/* Logo and Description */}
           <div className="col-md-4 text-center text-md-start mb-3 mb-md-0">
-            <h4 className="footer-logo mb-2">Your Club</h4>
+            <h4 className="footer-logo mb-2">EMPOWERMENT</h4>
             <p className="small">
             Capacity Building.. Making Leaders.
             </p>

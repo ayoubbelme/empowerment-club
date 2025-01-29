@@ -16,7 +16,7 @@ function What() {
         'نادي تمكين نادي جامعي علمي ثقافي تأسس على يد مجموعة من نخبة الجامعة بغرض تمكين الطالب من شتى مجالات الحياة ليكون قادرا على مواجهة صعوباتها',
     },
     {
-      name: 'Islem tekdenti',
+      name: 'Mohamed Islem takdenti',
       position: 'Advisor',
       opinion:
         'Joining this club was one of the best decisions I’ve ever made. The people, resources, and community are amazing!',
@@ -25,7 +25,7 @@ function What() {
       name: 'Monder Kafi',
       position: 'Founder',
       opinion:
-        'A fantastic club that provides so many opportunities for growth and networking. Highly recommended!',
+        'A fantastic club that provides so many opportunities for growth and networking.',
     },
   ];
 
@@ -38,7 +38,7 @@ function What() {
         >
           What Did They Say About Our Club
         </h2>
-        <div className="row g-3 justify-content-center">
+        <div className="row g-2 justify-content-center">
           {testimonials.map((testimonial, index) => (
             <div
               className="col-12 col-sm-6 col-md-4 mb-4 d-flex"
